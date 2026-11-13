@@ -29,6 +29,21 @@ CONFIDENCE_BANDS = [0.0, 0.6, 0.7, 0.8, 0.9, 1.0001]
 SHOWN_INPUTS = 8
 
 
+def readable(value):
+    """
+    A number written for people: thousands with commas and no decimals
+    (234,800 rather than 2.348e+05), small numbers to 3 significant digits.
+
+    Input:
+        value: the number.
+    Returns:
+        The text.
+    """
+    if abs(value) >= 1000:
+        return f"{value:,.0f}"
+    return f"{value:.3g}"
+
+
 def prediction_groups(predictions, test_target, spec):
     """
     Name the outcome of every test prediction.
@@ -223,7 +238,7 @@ def error_by_range(predictions, test_target, spec, bins=5):
         inside = np.asarray(groups == group)
         rows.append(
             {
-                "Range of " + label_for(spec, spec["target"]): f"{group.left:.4g} to {group.right:.4g}",
+                "Range of " + label_for(spec, spec["target"]): f"{readable(group.left)} to {readable(group.right)}",
                 "Cases": int(inside.sum()),
                 "MAE": round(float(np.abs(errors[inside]).mean()), 4),
                 "Mean error": round(float(errors[inside].mean()), 4),

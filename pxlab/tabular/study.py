@@ -89,9 +89,10 @@ def reliability_part(spec, results, best, train_features, train_target, test_fea
     score = main_score_name(spec)
     row = intervals[(intervals["Model"] == best) & (intervals["Score"] == score)].iloc[0]
     floor = intervals[(intervals["Model"] == baseline) & (intervals["Score"] == score)].iloc[0]
+    named = "" if baseline == reliability.BASELINE_NAME else f" ({baseline})"
     findings = [
         f"{best} scores {score} {row['Test value']:.3f} on the test set (95% interval {row['Low']:.3f} to "
-        f"{row['High']:.3f}); the baseline that ignores the inputs ({baseline}) scores {floor['Test value']:.3f}."
+        f"{row['High']:.3f}); the baseline that ignores the inputs{named} scores {floor['Test value']:.3f}."
     ]
     compared_on = "right or wrong answers" if spec["task"] == "classification" else "error sizes"
     for test in tests.itertuples(index=False):
@@ -214,7 +215,7 @@ def regression_errors_part(spec, pipeline, best, test_features, test_target, fol
     direction = "too low" if worst["Mean error"] > 0 else "too high"
     return [
         f"{best} is most biased for {label_for(spec, spec['target'])} {worst.iloc[0]}: it predicts {direction} by "
-        f"{abs(worst['Mean error']):.3g} on average there (MAE {worst['MAE']:.3g})."
+        f"{errors.readable(abs(worst['Mean error']))} on average there (MAE {errors.readable(worst['MAE'])})."
     ]
 
 
