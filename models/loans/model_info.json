@@ -140,6 +140,23 @@
       "None"
     ]
   },
+  "thresholds": {
+    "Decision Tree": 0.91,
+    "Random Forest": 0.64,
+    "Always approve": 0.02
+  },
+  "threshold_rule": "lowest cost",
+  "findings": [
+    "Random Forest scores ROC-AUC 0.785 on the test set (95% interval 0.722 to 0.842); the baseline that ignores the inputs (Always approve) scores 0.500.",
+    "Random Forest against Decision Tree on right or wrong answers (McNemar): could be chance (p = 0.207).",
+    "Random Forest against Always approve on right or wrong answers (McNemar): could be chance (p = 0.325).",
+    "Decision Tree generalises well: training and validation roc auc are close (+0.062); validation is still rising, so more data would likely help.",
+    "Random Forest overfits: training roc auc 0.944 against validation 0.790; validation has levelled off, so more data alone would help little.",
+    "Cut-off for Random Forest: 0.64 instead of 0.5, chosen for the lowest cost. On the test set: recall 0.74 to 0.51, precision 0.88 to 0.90, cost per 100 cases 54.4 to 54.4.",
+    "Most honest probabilities: Random Forest recalibrated (sigmoid) (Brier 0.164); Random Forest has Brier 0.186 and calibration error 0.141.",
+    "The input that most separates caught from missed approved is Loan amount (DM): average 2,641 when caught, 3,392 when missed.",
+    "When Random Forest is at least 90% sure it is right 100% of the time (2% of test cases)."
+  ],
   "model_files": {
     "Decision Tree": "decision_tree.joblib",
     "Random Forest": "random_forest.joblib",

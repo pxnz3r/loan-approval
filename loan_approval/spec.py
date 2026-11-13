@@ -65,6 +65,14 @@ LOAN_SPEC = {
     },
     "test_size": 0.25,
     "scoring": "roc_auc",
+    # Approving a bad borrower (false positive) costs five times as much as
+    # turning away a good one (false negative). The cut-off is tuned for it.
+    "error_costs": {
+        "false_positive": 5,
+        "false_negative": 1,
+        "reason": "These are the dataset's own costs: lending to someone who doesn't repay loses the money, "
+        "turning away a good borrower only loses the interest.",
+    },
     "models": {
         "Decision Tree": {
             "estimator": DecisionTreeClassifier(random_state=RANDOM_STATE),

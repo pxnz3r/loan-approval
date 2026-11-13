@@ -203,6 +203,29 @@ def input_form(spec, model_info, start_values, key_prefix, columns=2):
     return pd.DataFrame([values], columns=names)
 
 
+def cutoff_choice(model_info, model_name, key):
+    """
+    A switch between the default 0.5 cut-off and the one main.py tuned for
+    this model (cheapest or best F1, chosen on the training data).
+
+    Inputs:
+        model_info: from load_models(); has "thresholds" and "threshold_rule".
+        model_name: the model in use.
+        key: a unique Streamlit key.
+    Returns:
+        The cut-off to use, from 0 to 1.
+    """
+    tuned = model_info["thresholds"][model_name]
+    use_tuned = st.toggle(
+        f"Use the tuned cut-off ({tuned:.0%})",
+        value=True,
+        key=key,
+        help=f"Chosen on cross-validated training predictions for the {model_info['threshold_rule']}. "
+        "Off: the usual 50%.",
+    )
+    return tuned if use_tuned else 0.5
+
+
 def probability_bar(probability, threshold=None):
     """
     A bar from 0 to 100% filled to the probability, with an optional line

@@ -1,0 +1,6 @@
+Input,Caught approved (TP),Missed approved (FN),False alarm (FP),Correct negative (TN)
+Cases,89.0,86.0,10.0,65.0
+Loan length (months),17.831,20.128,14.0,28.338
+Loan amount (DM),2640.697,3391.791,2452.4,4771.569
+Repayment as share of income (1 to 4),3.079,2.93,2.7,3.2
+Loans already at this bank,1.506,1.43,1.5,1.338

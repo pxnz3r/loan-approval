@@ -41,6 +41,56 @@ from pxlab.common import save_figure, save_table
 from pxlab.tabular.data import label_for
 
 
+def classification_scores_from_predictions(target, predictions, positive_class=None, probabilities=None):
+    """
+    Classification scores from predictions that were already made. Used
+    directly by the bootstrap (which re-scores the same predictions many
+    times) and by classification_scores().
+
+    Inputs:
+        target: the real classes.
+        predictions: the predicted classes.
+        positive_class: for two classes, the class that counts as
+            "positive" (e.g. "spam"). None for more than two classes.
+        probabilities: for two classes, the predicted chance of the
+            positive class, or None if the model has no probabilities.
+    Returns:
+        A dictionary of scores.
+    """
+    scores = {"Accuracy": accuracy_score(target, predictions)}
+    if positive_class is not None:
+        # Balanced accuracy averages the recall of both classes, so a model
+        # that always answers the bigger class scores 0.5, not its share.
+        scores["Balanced accuracy"] = balanced_accuracy_score(target, predictions)
+        scores["Precision"] = precision_score(target, predictions, pos_label=positive_class, zero_division=0)
+        scores["Recall"] = recall_score(target, predictions, pos_label=positive_class, zero_division=0)
+        scores["F1"] = f1_score(target, predictions, pos_label=positive_class, zero_division=0)
+        if probabilities is not None:
+            scores["ROC-AUC"] = roc_auc_score(np.asarray(target) == positive_class, probabilities)
+    else:
+        scores["Precision"] = precision_score(target, predictions, average="macro", zero_division=0)
+        scores["Recall"] = recall_score(target, predictions, average="macro", zero_division=0)
+        scores["F1"] = f1_score(target, predictions, average="macro", zero_division=0)
+    return scores
+
+
+def positive_probabilities(pipeline, features, positive_class):
+    """
+    The model's predicted chance of the positive class for every row.
+
+    Inputs:
+        pipeline: a fitted classifier pipeline.
+        features: the inputs.
+        positive_class: the class that counts as positive.
+    Returns:
+        A numpy array, or None when the model can't give probabilities.
+    """
+    if not hasattr(pipeline, "predict_proba"):
+        return None
+    column = list(pipeline.classes_).index(positive_class)
+    return pipeline.predict_proba(features)[:, column]
+
+
 def classification_scores(pipeline, features, target, positive_class=None):
     """
     Score a classifier on labelled data.
@@ -53,24 +103,27 @@ def classification_scores(pipeline, features, target, positive_class=None):
     Returns:
         A dictionary of scores.
     """
-    predictions = pipeline.predict(features)
-    scores = {"Accuracy": accuracy_score(target, predictions)}
+    probabilities = None
     if positive_class is not None:
-        # Balanced accuracy averages the recall of both classes, so a model
-        # that always answers the bigger class scores 0.5, not its share.
-        scores["Balanced accuracy"] = balanced_accuracy_score(target, predictions)
-        scores["Precision"] = precision_score(target, predictions, pos_label=positive_class, zero_division=0)
-        scores["Recall"] = recall_score(target, predictions, pos_label=positive_class, zero_division=0)
-        scores["F1"] = f1_score(target, predictions, pos_label=positive_class, zero_division=0)
-        if hasattr(pipeline, "predict_proba"):
-            column = list(pipeline.classes_).index(positive_class)
-            probabilities = pipeline.predict_proba(features)[:, column]
-            scores["ROC-AUC"] = roc_auc_score(target == positive_class, probabilities)
-    else:
-        scores["Precision"] = precision_score(target, predictions, average="macro", zero_division=0)
-        scores["Recall"] = recall_score(target, predictions, average="macro", zero_division=0)
-        scores["F1"] = f1_score(target, predictions, average="macro", zero_division=0)
-    return scores
+        probabilities = positive_probabilities(pipeline, features, positive_class)
+    return classification_scores_from_predictions(target, pipeline.predict(features), positive_class, probabilities)
+
+
+def regression_scores_from_predictions(target, predictions):
+    """
+    Regression scores from predictions that were already made.
+
+    Inputs:
+        target: the real values.
+        predictions: the predicted values.
+    Returns:
+        A dictionary of scores.
+    """
+    return {
+        "MAE": mean_absolute_error(target, predictions),
+        "RMSE": root_mean_squared_error(target, predictions),
+        "R²": r2_score(target, predictions),
+    }
 
 
 def regression_scores(pipeline, features, target):
@@ -83,12 +136,7 @@ def regression_scores(pipeline, features, target):
     Returns:
         A dictionary of scores.
     """
-    predictions = pipeline.predict(features)
-    return {
-        "MAE": mean_absolute_error(target, predictions),
-        "RMSE": root_mean_squared_error(target, predictions),
-        "R²": r2_score(target, predictions),
-    }
+    return regression_scores_from_predictions(target, pipeline.predict(features))
 
 
 def test_scores(pipeline, features, target, spec):

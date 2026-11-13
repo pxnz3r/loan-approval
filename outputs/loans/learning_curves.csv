@@ -1,0 +1,13 @@
+Model,Training rows,Training score,Validation score
+Decision Tree,90,0.7567,0.5993
+Decision Tree,191,0.8092,0.6611
+Decision Tree,294,0.8206,0.6948
+Decision Tree,396,0.8311,0.7104
+Decision Tree,498,0.831,0.7223
+Decision Tree,600,0.8338,0.7715
+Random Forest,90,0.9586,0.7274
+Random Forest,191,0.9635,0.7554
+Random Forest,294,0.9525,0.7604
+Random Forest,396,0.949,0.7736
+Random Forest,498,0.9437,0.7832
+Random Forest,600,0.9444,0.7902

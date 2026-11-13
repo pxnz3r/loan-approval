@@ -1,0 +1,10 @@
+Model,Score,Test value,Low,High
+Decision Tree,Accuracy,0.7,0.644,0.756
+Decision Tree,F1,0.7967,0.7507,0.8397
+Decision Tree,ROC-AUC,0.6822,0.6121,0.7494
+Random Forest,Accuracy,0.744,0.6919,0.796
+Random Forest,F1,0.8012,0.7515,0.8464
+Random Forest,ROC-AUC,0.785,0.7219,0.8422
+Always approve,Accuracy,0.7,0.64,0.7561
+Always approve,F1,0.8235,0.7805,0.8611
+Always approve,ROC-AUC,0.5,0.5,0.5

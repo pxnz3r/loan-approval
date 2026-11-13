@@ -32,6 +32,7 @@ The original category codes (for example `A11`, `<0`) are turned into readable v
 6. **Rules**: the full tree as text (`outputs/loans/tree_rules.txt`), its top three levels as a picture, and in the app the path one application takes.
 7. **Depth sweep**: depth 1 to 15 with the other tuned settings fixed, cross-validation and test ROC-AUC.
 8. **Importance**: permutation importance on the test set, 10 shuffles per input.
+9. **In-depth analysis** (`pxlab.tabular.study`): 1,000-round bootstrap 95% intervals for the headline test scores, next to a baseline that ignores the inputs; McNemar's test of the best model against each other model; learning curves; a cut-off chosen on cross-validated training predictions for the lowest cost (a wrongly approved bad borrower costs 5, a wrongly rejected good one costs 1, the dataset's own cost matrix) and then checked on the test set; a reliability diagram, Brier score and a recalibrated copy of the best model; and an error analysis that compares the inputs of caught, missed and falsely flagged cases and shows how accuracy depends on the model's confidence. Each finding is one sentence in `outputs/loans/key_findings.csv`.
 
 ## Limits
 

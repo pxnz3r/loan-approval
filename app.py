@@ -20,6 +20,7 @@ import streamlit as st
 from loan_approval.report import FOLDER, results_sections
 from loan_approval.spec import LOAN_SPEC
 from pxlab.app import (
+    cutoff_choice,
     input_form,
     probability_bar,
     setup_page,
@@ -85,16 +86,17 @@ def show_decide_page(model_info, models, test):
     pipeline = models[model_name]
     approve_column = list(pipeline.classes_).index("approved")
     chance = float(pipeline.predict_proba(application)[0, approve_column])
-    decision = pipeline.predict(application)[0]
     with right:
-        st.subheader("Approved" if decision == "approved" else "Rejected", anchor=False)
+        cutoff = cutoff_choice(model_info, model_name, key=f"cutoff-{model_name}")
+        st.subheader("Approved" if chance >= cutoff else "Rejected", anchor=False)
         st.markdown(f"Approval score **{chance:.0%}**")
-        probability_bar(chance, threshold=0.5)
+        probability_bar(chance, threshold=cutoff)
+        st.caption(
+            f"Approved when the score is at least {cutoff:.0%} (the line). A bad loan costs five times a lost "
+            "good customer, so the tuned cut-off asks for a higher score than 50%."
+        )
         if model_name == "Decision Tree":
-            st.caption(
-                "The score is the share of approved training applicants in the leaf this application lands in. "
-                "The line marks 50%."
-            )
+            st.caption("The score is the share of approved training applicants in the leaf this application lands in.")
             st.subheader("The questions the tree asked", anchor=False)
             steps = decision_path(pipeline, application, spec)
             st.markdown("\n".join(f"{number}. {step}" for number, step in enumerate(steps, start=1)))

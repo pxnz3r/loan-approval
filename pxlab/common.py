@@ -134,6 +134,8 @@ def write_results_doc(title, intro, sections, path="docs/results.md"):
                     table = table.rename(columns=lambda c: "" if str(c).startswith("Unnamed") else c)
                     lines += [f"### {item[1]}", "", markdown_table(table), ""]
             elif item[0] == "figure":
+                if not os.path.isfile(os.path.join(FIGURES_FOLDER, item[1])):
+                    continue
                 alt_text = os.path.splitext(os.path.basename(item[1]))[0].replace("_", " ")
                 lines += [f"![{alt_text}](../{FIGURES_FOLDER.replace(os.sep, '/')}/{item[1]})", ""]
             else:

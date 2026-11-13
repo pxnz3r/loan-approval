@@ -3,6 +3,9 @@ report.py - which saved tables and figures make up the results. The app's
 Results tab and docs/results.md both read this list, so they always match.
 """
 
+from loan_approval.spec import LOAN_SPEC
+from pxlab.tabular.study import study_sections
+
 FOLDER = "loans"
 
 
@@ -23,6 +26,7 @@ def results_sections():
                 ("figure", f"{FOLDER}/roc_curves.png"),
             ],
         ),
+        *study_sections(LOAN_SPEC, FOLDER),
         (
             "Tree depth",
             [

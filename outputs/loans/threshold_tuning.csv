@@ -1,0 +1,7 @@
+Model,Cut-off,Threshold,Precision,Recall,F1,Accuracy,Cost per 100 cases,TP,FP,FN,TN
+Decision Tree,Default,0.5,0.758,0.84,0.797,0.7,105.2,147,47,28,28
+Decision Tree,Tuned,0.91,0.848,0.383,0.528,0.52,67.2,67,12,108,63
+Random Forest,Default,0.5,0.878,0.737,0.801,0.744,54.4,129,18,46,57
+Random Forest,Tuned,0.64,0.899,0.509,0.65,0.616,54.4,89,10,86,65
+Always approve,Default,0.5,0.7,1.0,0.824,0.7,150.0,175,75,0,0
+Always approve,Tuned,0.02,0.7,1.0,0.824,0.7,150.0,175,75,0,0

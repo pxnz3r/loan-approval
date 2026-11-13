@@ -1,0 +1,5 @@
+Model,Brier score,Calibration error,Mean predicted,Real positive share
+Decision Tree,0.2148,0.1338,0.6835,0.7
+Random Forest,0.1857,0.1409,0.5608,0.7
+Always approve,0.3,0.3,1.0,0.7
+Random Forest recalibrated (sigmoid),0.1643,0.0428,0.695,0.7

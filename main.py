@@ -49,6 +49,7 @@ from pxlab.tabular.explain import (
     plot_tree_top,
     tree_rules,
 )
+from pxlab.tabular.study import run_study
 from pxlab.tabular.train import best_model_name, save_models, train_models
 
 SWEEP_DEPTHS = list(range(1, 16))
@@ -108,6 +109,10 @@ def main():
     )
     plot_permutation_importance(importance, filename=f"{FOLDER}/permutation_importance.png")
 
+    study = run_study(
+        spec, results, best_model_name(results), train_features, train_target, test_features, test_target, FOLDER
+    )
+
     model_info = {
         "dataset": "Statlog German Credit",
         "classes": ["approved", "rejected"],
@@ -120,6 +125,7 @@ def main():
         "tree_depth": int(tree.named_steps["model"].get_depth()),
     }
     model_info.update(input_summary(train_features, spec))
+    model_info.update(study)
     save_models(results, model_info, folder=model_folder)
 
     write_results_doc(

@@ -1,0 +1,3 @@
+Best model,Compared with,Best is better on,Other is better on,Test,p-value,Verdict
+Random Forest,Decision Tree,37,26,McNemar,0.2074,Could be chance
+Random Forest,Always approve,57,46,McNemar,0.3245,Could be chance
