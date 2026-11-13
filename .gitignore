@@ -1,4 +1,4 @@
-# Generated data (fruit.csv is re-created by main.py)
+# Downloaded data (main.py fetches it again)
 data/
 
 # Trained models in models/ are committed so the hosted Streamlit app can
