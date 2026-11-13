@@ -26,7 +26,7 @@ from sklearn.tree import export_text, plot_tree
 
 from pxlab.common import OUTPUTS_FOLDER, RANDOM_STATE, save_figure, save_table
 from pxlab.tabular.data import feature_columns, label_for
-from pxlab.tabular.train import build_pipeline, cross_validation_folds
+from pxlab.tabular.train import build_pipeline, cross_validation_folds, scorer_for
 
 
 def permutation_importance_table(
@@ -51,7 +51,7 @@ def permutation_importance_table(
             result["pipeline"],
             test_features,
             test_target,
-            scoring=spec["scoring"],
+            scoring=scorer_for(spec),
             n_repeats=repeats,
             random_state=RANDOM_STATE,
             n_jobs=-1,
@@ -272,10 +272,10 @@ def parameter_sweep(spec, model_spec, parameter, values, train_features, train_t
         pipeline = build_pipeline(spec, model_spec)
         pipeline.set_params(**{"model__" + parameter: value})
         cv = cross_val_score(
-            clone(pipeline), train_features, train_target, scoring=spec["scoring"], cv=cross_validation_folds(spec)
+            clone(pipeline), train_features, train_target, scoring=scorer_for(spec), cv=cross_validation_folds(spec)
         )
         pipeline.fit(train_features, train_target)
-        test = get_scorer(spec["scoring"])(pipeline, test_features, test_target)
+        test = get_scorer(scorer_for(spec))(pipeline, test_features, test_target)
         rows.append({parameter: value, "CV score": scorer_sign * cv.mean(), "Test score": scorer_sign * test})
     return pd.DataFrame(rows)
 

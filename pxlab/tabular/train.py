@@ -22,6 +22,7 @@ import joblib
 from sklearn.base import clone
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
+from sklearn.metrics import f1_score, make_scorer, precision_score, recall_score
 from sklearn.model_selection import GridSearchCV, KFold, StratifiedKFold, TimeSeriesSplit
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
@@ -110,6 +111,24 @@ def cross_validation_folds(spec, folds=5):
     return KFold(n_splits=folds, shuffle=True, random_state=RANDOM_STATE)
 
 
+def scorer_for(spec):
+    """
+    The score used for tuning and sweeps. F1, precision and recall need to
+    know which class is "positive"; scikit-learn assumes the label 1, so for
+    text labels like "spam" the scorer is built with the SPEC's
+    positive_class.
+
+    Input:
+        spec: the project SPEC.
+    Returns:
+        A scoring name or a scorer that scikit-learn accepts.
+    """
+    metrics = {"f1": f1_score, "precision": precision_score, "recall": recall_score}
+    if spec.get("positive_class") is not None and spec["scoring"] in metrics:
+        return make_scorer(metrics[spec["scoring"]], pos_label=spec["positive_class"])
+    return spec["scoring"]
+
+
 def train_models(spec, train_features, train_target):
     """
     Tune and train every model in SPEC["models"] with grid search and
@@ -134,7 +153,7 @@ def train_models(spec, train_features, train_target):
         search = GridSearchCV(
             build_pipeline(spec, model_spec),
             grid,
-            scoring=spec["scoring"],
+            scoring=scorer_for(spec),
             cv=cross_validation_folds(spec),
             n_jobs=-1,
         )
