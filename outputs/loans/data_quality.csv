@@ -1,0 +1,16 @@
+Column,Type,Missing,Distinct values
+credit_amount,numeric,0,921
+duration,numeric,0,33
+installment_commitment,numeric,0,4
+existing_credits,numeric,0,4
+checking_status,category,0,4
+savings_status,category,0,5
+credit_history,category,0,5
+employment,category,0,5
+job,category,0,4
+purpose,category,0,10
+housing,category,0,3
+property_magnitude,category,0,4
+other_parties,category,0,3
+other_payment_plans,category,0,3
+decision,target,0,2

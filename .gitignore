@@ -1,0 +1,20 @@
+# Generated data (fruit.csv is re-created by main.py)
+data/
+
+# Trained models in models/ are committed so the hosted Streamlit app can
+# load them without training. Re-create them with: python main.py
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.ruff_cache/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.claude/

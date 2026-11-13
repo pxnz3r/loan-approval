@@ -1,0 +1,160 @@
+{
+  "dataset": "Statlog German Credit",
+  "classes": [
+    "approved",
+    "rejected"
+  ],
+  "best_model": "Random Forest",
+  "test_scores": {
+    "Decision Tree": {
+      "Accuracy": 0.7,
+      "Balanced accuracy": 0.6066666666666667,
+      "Precision": 0.7577319587628866,
+      "Recall": 0.84,
+      "F1": 0.7967479674796748,
+      "ROC-AUC": 0.6822476190476191
+    },
+    "Random Forest": {
+      "Accuracy": 0.744,
+      "Balanced accuracy": 0.7485714285714286,
+      "Precision": 0.8775510204081632,
+      "Recall": 0.7371428571428571,
+      "F1": 0.8012422360248447,
+      "ROC-AUC": 0.7849904761904762
+    },
+    "Always approve": {
+      "Accuracy": 0.7,
+      "Balanced accuracy": 0.5,
+      "Precision": 0.7,
+      "Recall": 1.0,
+      "F1": 0.8235294117647058,
+      "ROC-AUC": 0.5
+    }
+  },
+  "cv_scores": {
+    "Decision Tree": 0.7715132275132275,
+    "Random Forest": 0.7888677248677249,
+    "Always approve": 0.5
+  },
+  "tree_leaves": 22,
+  "tree_depth": 6,
+  "default_values": {
+    "credit_amount": 2319.5,
+    "duration": 18.0,
+    "installment_commitment": 3.0,
+    "existing_credits": 1.0,
+    "checking_status": "No current account",
+    "savings_status": "Under 100 DM",
+    "credit_history": "Current loans repaid on time so far",
+    "employment": "1 to 4 years",
+    "job": "Skilled",
+    "purpose": "Radio/tv",
+    "housing": "Owns",
+    "property_magnitude": "Car or other",
+    "other_parties": "None",
+    "other_payment_plans": "None"
+  },
+  "feature_ranges": {
+    "credit_amount": [
+      338.0,
+      15945.0
+    ],
+    "duration": [
+      4.0,
+      60.0
+    ],
+    "installment_commitment": [
+      1.0,
+      4.0
+    ],
+    "existing_credits": [
+      1.0,
+      4.0
+    ]
+  },
+  "category_options": {
+    "checking_status": [
+      "0 to 200 DM",
+      "200 DM or more",
+      "No current account",
+      "Overdrawn"
+    ],
+    "savings_status": [
+      "1,000 DM or more",
+      "100 to 500 DM",
+      "500 to 1,000 DM",
+      "None known",
+      "Under 100 DM"
+    ],
+    "credit_history": [
+      "All loans at this bank repaid",
+      "Critical account or loans at other banks",
+      "Current loans repaid on time so far",
+      "No loans taken, or all repaid",
+      "Paid late in the past"
+    ],
+    "employment": [
+      "1 to 4 years",
+      "4 to 7 years",
+      "7 years or more",
+      "Under 1 year",
+      "Unemployed"
+    ],
+    "job": [
+      "Highly qualified, self-employed or manager",
+      "Skilled",
+      "Unskilled",
+      "Unskilled, non-resident"
+    ],
+    "purpose": [
+      "Business",
+      "Domestic appliance",
+      "Education",
+      "Furniture/equipment",
+      "New car",
+      "Other",
+      "Radio/tv",
+      "Repairs",
+      "Retraining",
+      "Used car"
+    ],
+    "housing": [
+      "Lives for free",
+      "Owns",
+      "Rents"
+    ],
+    "property_magnitude": [
+      "Car or other",
+      "None known",
+      "Real estate",
+      "Savings or life insurance"
+    ],
+    "other_parties": [
+      "Co-applicant",
+      "Guarantor",
+      "None"
+    ],
+    "other_payment_plans": [
+      "At another bank",
+      "At stores",
+      "None"
+    ]
+  },
+  "model_files": {
+    "Decision Tree": "decision_tree.joblib",
+    "Random Forest": "random_forest.joblib",
+    "Always approve": "always_approve.joblib"
+  },
+  "best_params": {
+    "Decision Tree": {
+      "class_weight": null,
+      "max_depth": 6,
+      "min_samples_leaf": 20
+    },
+    "Random Forest": {
+      "class_weight": "balanced",
+      "min_samples_leaf": 5
+    },
+    "Always approve": {}
+  }
+}

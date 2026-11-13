@@ -1,0 +1,4 @@
+Model,Role,CV roc auc,Accuracy,Balanced accuracy,Precision,Recall,F1,ROC-AUC
+Decision Tree,Main,0.772,0.7,0.607,0.758,0.84,0.797,0.682
+Random Forest,Benchmark beyond the course,0.789,0.744,0.749,0.878,0.737,0.801,0.785
+Always approve,Baseline,0.5,0.7,0.5,0.7,1.0,0.824,0.5

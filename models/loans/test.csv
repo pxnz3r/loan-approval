@@ -1,0 +1,251 @@
+credit_amount,duration,installment_commitment,existing_credits,checking_status,savings_status,credit_history,employment,job,purpose,housing,property_magnitude,other_parties,other_payment_plans,decision
+7119,48,3,2,Overdrawn,Under 100 DM,"No loans taken, or all repaid",1 to 4 years,Skilled,Furniture/equipment,Lives for free,None known,None,None,rejected
+2279,12,4,1,No current account,None known,Current loans repaid on time so far,1 to 4 years,Skilled,Radio/tv,Lives for free,None known,None,None,approved
+660,6,2,1,No current account,"500 to 1,000 DM",Current loans repaid on time so far,4 to 7 years,Unskilled,Repairs,Rents,Real estate,None,None,approved
+5804,24,4,2,No current account,"1,000 DM or more",Critical account or loans at other banks,1 to 4 years,Skilled,Used car,Owns,Real estate,None,None,approved
+2679,24,4,1,No current account,Under 100 DM,Current loans repaid on time so far,Under 1 year,"Highly qualified, self-employed or manager",Used car,Owns,None known,None,None,approved
+3446,36,4,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,7 years or more,Skilled,Furniture/equipment,Owns,Car or other,None,None,rejected
+5152,24,4,1,200 DM or more,Under 100 DM,Current loans repaid on time so far,4 to 7 years,Skilled,Radio/tv,Owns,Car or other,None,At another bank,approved
+1285,24,4,1,Overdrawn,None known,Current loans repaid on time so far,4 to 7 years,Skilled,New car,Rents,None known,None,None,rejected
+1800,18,4,2,No current account,Under 100 DM,Critical account or loans at other banks,1 to 4 years,Skilled,Radio/tv,Owns,Car or other,None,None,approved
+1905,15,4,1,200 DM or more,Under 100 DM,Current loans repaid on time so far,7 years or more,"Highly qualified, self-employed or manager",Education,Rents,Car or other,None,None,approved
+1453,18,3,1,No current account,Under 100 DM,Current loans repaid on time so far,Under 1 year,Skilled,Radio/tv,Owns,Real estate,None,None,approved
+2570,27,3,1,No current account,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Skilled,New car,Rents,Real estate,None,None,rejected
+3857,30,4,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,1 to 4 years,"Highly qualified, self-employed or manager",Used car,Owns,Savings or life insurance,None,None,approved
+1282,12,2,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Skilled,Furniture/equipment,Rents,Car or other,None,None,rejected
+9398,36,1,1,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,Under 1 year,"Highly qualified, self-employed or manager",Used car,Rents,Car or other,None,None,rejected
+2241,21,4,2,No current account,Under 100 DM,Current loans repaid on time so far,7 years or more,Skilled,Furniture/equipment,Owns,Real estate,None,None,approved
+1199,24,4,2,Overdrawn,Under 100 DM,Critical account or loans at other banks,7 years or more,Unskilled,New car,Owns,Car or other,None,None,rejected
+759,12,4,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,4 to 7 years,Skilled,New car,Owns,Real estate,None,None,rejected
+276,9,4,1,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Unskilled,New car,Rents,Real estate,None,None,approved
+609,6,4,2,Overdrawn,Under 100 DM,Critical account or loans at other banks,4 to 7 years,Skilled,New car,Owns,Savings or life insurance,None,None,approved
+1355,24,3,1,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,Under 1 year,Unskilled,New car,Owns,Car or other,None,None,rejected
+1582,18,4,2,No current account,"1,000 DM or more",Critical account or loans at other banks,7 years or more,Skilled,Radio/tv,Owns,Car or other,None,None,approved
+4297,18,4,1,0 to 200 DM,Under 100 DM,Paid late in the past,7 years or more,"Highly qualified, self-employed or manager",Furniture/equipment,Owns,None known,None,None,rejected
+2292,12,4,2,No current account,Under 100 DM,Critical account or loans at other banks,Unemployed,"Highly qualified, self-employed or manager",Business,Owns,Car or other,None,At stores,rejected
+5103,24,3,3,No current account,Under 100 DM,Critical account or loans at other banks,Under 1 year,Skilled,Radio/tv,Lives for free,None known,None,None,approved
+7511,18,1,1,Overdrawn,None known,Current loans repaid on time so far,7 years or more,Skilled,Used car,Lives for free,Savings or life insurance,None,None,rejected
+1275,24,2,2,200 DM or more,"1,000 DM or more",Critical account or loans at other banks,1 to 4 years,Skilled,Business,Owns,Real estate,None,None,approved
+2384,24,4,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,7 years or more,Unskilled,Radio/tv,Rents,Real estate,None,At another bank,approved
+4308,48,3,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,Under 1 year,Skilled,Business,Rents,Savings or life insurance,None,None,rejected
+2241,10,1,2,Overdrawn,Under 100 DM,Critical account or loans at other banks,Under 1 year,Unskilled,New car,Rents,Real estate,None,None,approved
+3060,48,4,2,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,4 to 7 years,Skilled,Radio/tv,Owns,Real estate,None,None,rejected
+2415,7,3,1,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Skilled,Radio/tv,Owns,Real estate,Guarantor,None,approved
+1484,12,2,1,0 to 200 DM,None known,Current loans repaid on time so far,1 to 4 years,Skilled,Radio/tv,Owns,Real estate,None,None,rejected
+5951,48,2,1,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Skilled,Radio/tv,Owns,Real estate,None,None,rejected
+3527,12,2,1,No current account,None known,Current loans repaid on time so far,Under 1 year,"Highly qualified, self-employed or manager",New car,Owns,Savings or life insurance,None,None,approved
+1209,6,4,1,0 to 200 DM,Under 100 DM,Paid late in the past,Unemployed,"Highly qualified, self-employed or manager",New car,Owns,Savings or life insurance,None,None,rejected
+1860,12,4,2,0 to 200 DM,Under 100 DM,Critical account or loans at other banks,Unemployed,"Highly qualified, self-employed or manager",Used car,Owns,Car or other,None,None,approved
+3105,24,4,2,No current account,None known,Current loans repaid on time so far,Under 1 year,Skilled,Radio/tv,Owns,Car or other,None,None,approved
+1047,6,2,1,200 DM or more,Under 100 DM,Critical account or loans at other banks,1 to 4 years,Unskilled,Education,Owns,Savings or life insurance,None,None,approved
+1246,24,4,1,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,Under 1 year,Unskilled,New car,Owns,Real estate,None,At stores,rejected
+3488,24,3,1,No current account,100 to 500 DM,Current loans repaid on time so far,4 to 7 years,Skilled,Used car,Owns,Car or other,None,None,approved
+1984,18,4,2,No current account,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Skilled,Furniture/equipment,Lives for free,None known,None,At another bank,approved
+2149,12,4,1,Overdrawn,Under 100 DM,All loans at this bank repaid,1 to 4 years,Skilled,Radio/tv,Lives for free,None known,None,None,rejected
+1108,12,4,2,Overdrawn,Under 100 DM,"No loans taken, or all repaid",4 to 7 years,Skilled,Repairs,Owns,Real estate,None,None,rejected
+1225,10,2,1,200 DM or more,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Skilled,Domestic appliance,Owns,Car or other,None,None,approved
+907,8,3,1,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,Under 1 year,Skilled,Business,Owns,Real estate,None,None,approved
+2360,15,2,1,200 DM or more,"500 to 1,000 DM",Critical account or loans at other banks,1 to 4 years,Skilled,Used car,Owns,Car or other,None,None,approved
+976,18,1,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,Under 1 year,Unskilled,New car,Owns,Car or other,None,None,rejected
+6350,30,4,1,Overdrawn,None known,Current loans repaid on time so far,7 years or more,Skilled,Furniture/equipment,Owns,Savings or life insurance,None,None,rejected
+1823,24,4,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,Unemployed,"Highly qualified, self-employed or manager",Radio/tv,Owns,Car or other,None,At stores,rejected
+2051,18,4,1,No current account,Under 100 DM,Current loans repaid on time so far,Under 1 year,Skilled,Radio/tv,Owns,Real estate,None,None,approved
+2302,36,4,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Skilled,Radio/tv,Rents,Car or other,None,None,rejected
+1603,24,4,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,7 years or more,Skilled,Radio/tv,Owns,Car or other,None,None,approved
+2820,36,4,2,0 to 200 DM,Under 100 DM,Critical account or loans at other banks,Under 1 year,Skilled,New car,Owns,Car or other,None,None,rejected
+626,12,4,1,Overdrawn,Under 100 DM,All loans at this bank repaid,1 to 4 years,Unskilled,Radio/tv,Owns,Real estate,None,At another bank,rejected
+12749,48,4,1,No current account,"500 to 1,000 DM",Paid late in the past,4 to 7 years,"Highly qualified, self-employed or manager",Radio/tv,Owns,Car or other,None,None,approved
+12389,36,1,1,0 to 200 DM,None known,Current loans repaid on time so far,1 to 4 years,Skilled,New car,Lives for free,None known,None,None,rejected
+8133,36,1,1,No current account,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Skilled,Used car,Owns,Savings or life insurance,None,At another bank,approved
+6187,30,1,2,Overdrawn,100 to 500 DM,Critical account or loans at other banks,4 to 7 years,Skilled,Used car,Rents,Car or other,None,None,approved
+590,6,3,1,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,Under 1 year,Unskilled,Radio/tv,Owns,Real estate,None,None,approved
+1597,24,4,2,No current account,Under 100 DM,Critical account or loans at other banks,7 years or more,Skilled,Education,Lives for free,None known,None,None,approved
+3499,12,3,2,Overdrawn,Under 100 DM,Critical account or loans at other banks,1 to 4 years,Skilled,New car,Owns,Real estate,Co-applicant,None,rejected
+1358,24,4,1,Overdrawn,None known,All loans at this bank repaid,7 years or more,"Highly qualified, self-employed or manager",Other,Owns,Car or other,None,At stores,rejected
+15672,48,2,1,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Skilled,Business,Owns,Car or other,None,None,rejected
+1175,16,2,3,0 to 200 DM,Under 100 DM,Critical account or loans at other banks,Unemployed,"Unskilled, non-resident",New car,Lives for free,Car or other,None,None,approved
+2831,30,4,1,No current account,Under 100 DM,Critical account or loans at other banks,1 to 4 years,Skilled,Radio/tv,Owns,Car or other,None,None,approved
+1344,24,4,2,200 DM or more,None known,Critical account or loans at other banks,4 to 7 years,Unskilled,New car,Owns,Real estate,None,At another bank,rejected
+1795,18,3,2,0 to 200 DM,Under 100 DM,Critical account or loans at other banks,7 years or more,Unskilled,Radio/tv,Rents,Real estate,Guarantor,At another bank,approved
+1554,6,1,2,No current account,Under 100 DM,Critical account or loans at other banks,4 to 7 years,Skilled,Radio/tv,Rents,Car or other,None,None,approved
+1750,6,2,1,No current account,"500 to 1,000 DM",All loans at this bank repaid,7 years or more,Unskilled,Radio/tv,Owns,Savings or life insurance,None,At another bank,approved
+1442,18,4,2,Overdrawn,Under 100 DM,All loans at this bank repaid,4 to 7 years,Unskilled,New car,Lives for free,None known,None,None,rejected
+3275,21,1,1,No current account,Under 100 DM,Critical account or loans at other banks,7 years or more,"Highly qualified, self-employed or manager",Used car,Owns,Car or other,None,None,approved
+5742,36,2,2,No current account,100 to 500 DM,Current loans repaid on time so far,4 to 7 years,Skilled,Business,Owns,Car or other,None,None,approved
+2728,15,4,3,0 to 200 DM,None known,Critical account or loans at other banks,4 to 7 years,Skilled,Radio/tv,Owns,Real estate,Guarantor,At another bank,approved
+2748,12,2,3,No current account,Under 100 DM,Critical account or loans at other banks,7 years or more,Unskilled,Education,Lives for free,None known,None,At another bank,approved
+1480,12,2,3,200 DM or more,"500 to 1,000 DM",Critical account or loans at other banks,Unemployed,"Unskilled, non-resident",New car,Lives for free,None known,None,At another bank,approved
+1024,24,4,1,Overdrawn,Under 100 DM,Paid late in the past,Under 1 year,Skilled,Radio/tv,Owns,Real estate,None,At stores,rejected
+2255,24,4,1,No current account,None known,Current loans repaid on time so far,Under 1 year,Skilled,New car,Owns,Savings or life insurance,None,None,approved
+1103,12,4,2,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,4 to 7 years,Skilled,Radio/tv,Owns,Real estate,Guarantor,None,approved
+4280,30,4,2,0 to 200 DM,100 to 500 DM,"No loans taken, or all repaid",1 to 4 years,Unskilled,Business,Rents,Car or other,None,None,rejected
+3181,24,4,1,No current account,Under 100 DM,Current loans repaid on time so far,Under 1 year,Skilled,Radio/tv,Owns,Savings or life insurance,None,None,approved
+3079,36,4,1,No current account,None known,Current loans repaid on time so far,1 to 4 years,Skilled,New car,Owns,Real estate,None,None,approved
+3660,24,2,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Skilled,Radio/tv,Owns,Car or other,None,None,approved
+1478,15,4,2,Overdrawn,Under 100 DM,Critical account or loans at other banks,7 years or more,Skilled,Furniture/equipment,Owns,Car or other,None,None,approved
+1546,10,3,1,No current account,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Unskilled,New car,Owns,Real estate,None,None,approved
+776,12,4,1,No current account,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Skilled,Radio/tv,Owns,Real estate,None,None,approved
+13756,60,2,1,No current account,None known,Critical account or loans at other banks,7 years or more,"Highly qualified, self-employed or manager",New car,Lives for free,None known,None,At another bank,approved
+10875,36,2,2,No current account,Under 100 DM,Paid late in the past,7 years or more,Skilled,New car,Owns,Car or other,None,None,approved
+1591,21,4,2,No current account,100 to 500 DM,Paid late in the past,4 to 7 years,"Highly qualified, self-employed or manager",Furniture/equipment,Owns,Real estate,None,None,approved
+1050,6,4,2,0 to 200 DM,Under 100 DM,Paid late in the past,Unemployed,"Highly qualified, self-employed or manager",Furniture/equipment,Owns,Savings or life insurance,None,At stores,approved
+362,6,4,2,No current account,100 to 500 DM,Critical account or loans at other banks,1 to 4 years,Unskilled,New car,Owns,Car or other,None,None,approved
+5954,30,3,1,No current account,Under 100 DM,Critical account or loans at other banks,4 to 7 years,Skilled,Radio/tv,Owns,Car or other,Co-applicant,None,approved
+3711,36,2,1,0 to 200 DM,None known,Current loans repaid on time so far,1 to 4 years,Skilled,Education,Owns,Car or other,None,None,approved
+1503,12,4,1,No current account,Under 100 DM,Paid late in the past,1 to 4 years,Skilled,Used car,Rents,Real estate,None,None,approved
+1131,18,4,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,Unemployed,Skilled,Furniture/equipment,Owns,Car or other,None,None,rejected
+3590,18,3,3,0 to 200 DM,Under 100 DM,Critical account or loans at other banks,Unemployed,"Unskilled, non-resident",Business,Owns,Car or other,None,None,approved
+2146,10,1,2,No current account,Under 100 DM,Critical account or loans at other banks,Under 1 year,Skilled,Furniture/equipment,Rents,Real estate,None,None,approved
+2910,24,2,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,4 to 7 years,"Highly qualified, self-employed or manager",Used car,Lives for free,None known,None,None,approved
+1963,12,4,2,No current account,Under 100 DM,Current loans repaid on time so far,4 to 7 years,"Highly qualified, self-employed or manager",Radio/tv,Rents,Car or other,None,None,approved
+3612,18,3,1,0 to 200 DM,Under 100 DM,Critical account or loans at other banks,7 years or more,Skilled,Furniture/equipment,Owns,Savings or life insurance,None,None,approved
+1837,24,4,1,0 to 200 DM,Under 100 DM,All loans at this bank repaid,4 to 7 years,Unskilled,Education,Lives for free,None known,None,At another bank,rejected
+3104,18,3,1,Overdrawn,Under 100 DM,"No loans taken, or all repaid",4 to 7 years,Skilled,Business,Owns,Savings or life insurance,None,At another bank,approved
+4169,24,4,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Skilled,Furniture/equipment,Owns,Savings or life insurance,None,None,approved
+2835,24,3,1,No current account,"500 to 1,000 DM",Current loans repaid on time so far,7 years or more,Skilled,Furniture/equipment,Owns,Savings or life insurance,None,None,approved
+10127,48,2,1,No current account,"500 to 1,000 DM",Critical account or loans at other banks,1 to 4 years,Skilled,New car,Lives for free,None known,None,At another bank,rejected
+4281,33,1,2,Overdrawn,"500 to 1,000 DM",Critical account or loans at other banks,1 to 4 years,Skilled,Furniture/equipment,Owns,Car or other,None,None,rejected
+6260,18,3,1,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,4 to 7 years,Unskilled,New car,Rents,Real estate,None,None,approved
+2404,18,2,2,No current account,Under 100 DM,Critical account or loans at other banks,1 to 4 years,Skilled,Radio/tv,Owns,Car or other,None,None,approved
+1549,9,4,1,0 to 200 DM,None known,Current loans repaid on time so far,Under 1 year,"Unskilled, non-resident",New car,Owns,Real estate,None,None,approved
+6199,12,4,2,Overdrawn,Under 100 DM,"No loans taken, or all repaid",1 to 4 years,Skilled,Radio/tv,Rents,Savings or life insurance,None,None,rejected
+2032,24,4,2,No current account,Under 100 DM,Paid late in the past,7 years or more,Skilled,New car,Lives for free,None known,None,None,approved
+7408,60,4,1,0 to 200 DM,100 to 500 DM,Current loans repaid on time so far,Under 1 year,"Highly qualified, self-employed or manager",New car,Owns,Savings or life insurance,None,None,rejected
+3578,48,4,1,No current account,None known,Critical account or loans at other banks,7 years or more,Skilled,Radio/tv,Owns,Real estate,None,None,approved
+1352,6,1,1,Overdrawn,"500 to 1,000 DM",Current loans repaid on time so far,Unemployed,"Unskilled, non-resident",Used car,Rents,Savings or life insurance,None,None,approved
+1980,9,2,2,No current account,Under 100 DM,Current loans repaid on time so far,Under 1 year,Skilled,Furniture/equipment,Rents,Car or other,Co-applicant,None,rejected
+2012,12,4,1,No current account,None known,Critical account or loans at other banks,4 to 7 years,Skilled,Education,Owns,Car or other,None,None,approved
+522,12,4,2,No current account,"500 to 1,000 DM",Critical account or loans at other banks,7 years or more,Skilled,Radio/tv,Owns,Savings or life insurance,None,None,approved
+3595,36,4,1,No current account,Under 100 DM,Current loans repaid on time so far,7 years or more,Skilled,Radio/tv,Owns,Car or other,None,None,approved
+14896,6,1,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,7 years or more,"Highly qualified, self-employed or manager",New car,Owns,None known,None,At another bank,rejected
+2273,36,3,2,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,4 to 7 years,Skilled,Education,Owns,Car or other,None,None,approved
+6314,24,4,2,No current account,Under 100 DM,Critical account or loans at other banks,Unemployed,"Highly qualified, self-employed or manager",Other,Owns,None known,Co-applicant,At another bank,approved
+1330,12,4,1,200 DM or more,Under 100 DM,Current loans repaid on time so far,Under 1 year,Skilled,New car,Owns,Real estate,None,None,approved
+7678,36,2,2,No current account,"500 to 1,000 DM",Paid late in the past,4 to 7 years,Skilled,Furniture/equipment,Owns,Car or other,None,None,approved
+1829,15,4,2,No current account,Under 100 DM,Critical account or loans at other banks,7 years or more,Skilled,Radio/tv,Owns,Car or other,None,None,approved
+1364,10,2,1,No current account,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Skilled,New car,Owns,Car or other,None,None,approved
+2675,22,3,1,No current account,"500 to 1,000 DM",Current loans repaid on time so far,7 years or more,Skilled,Radio/tv,Owns,Car or other,None,None,approved
+7472,12,1,1,0 to 200 DM,None known,Current loans repaid on time so far,Unemployed,"Unskilled, non-resident",New car,Rents,Real estate,None,None,approved
+1533,18,4,1,No current account,Under 100 DM,Current loans repaid on time so far,Under 1 year,Unskilled,Furniture/equipment,Owns,Savings or life insurance,Co-applicant,None,rejected
+6761,18,2,2,No current account,None known,Current loans repaid on time so far,1 to 4 years,Skilled,New car,Rents,Car or other,None,None,rejected
+6615,24,2,2,Overdrawn,Under 100 DM,Critical account or loans at other banks,Unemployed,"Highly qualified, self-employed or manager",Used car,Lives for free,None known,None,None,approved
+1445,18,4,1,200 DM or more,None known,All loans at this bank repaid,4 to 7 years,Unskilled,Radio/tv,Owns,Car or other,None,At another bank,approved
+2101,13,2,1,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,Under 1 year,Unskilled,Radio/tv,Owns,Savings or life insurance,Guarantor,None,approved
+6224,48,4,1,0 to 200 DM,Under 100 DM,Paid late in the past,7 years or more,Skilled,Education,Lives for free,None known,None,None,rejected
+1364,9,3,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,4 to 7 years,Skilled,Radio/tv,Owns,Real estate,None,None,approved
+7596,30,1,2,No current account,None known,Critical account or loans at other banks,7 years or more,Skilled,Used car,Owns,Car or other,None,None,approved
+882,13,4,2,0 to 200 DM,Under 100 DM,Critical account or loans at other banks,Under 1 year,Skilled,Radio/tv,Owns,Real estate,Guarantor,None,approved
+250,6,2,2,No current account,"1,000 DM or more",Critical account or loans at other banks,1 to 4 years,Unskilled,New car,Owns,Real estate,None,At another bank,approved
+1238,6,4,1,No current account,None known,Current loans repaid on time so far,Unemployed,"Highly qualified, self-employed or manager",Retraining,Owns,Savings or life insurance,None,None,approved
+1386,12,2,1,No current account,"500 to 1,000 DM",Current loans repaid on time so far,1 to 4 years,Skilled,New car,Owns,Savings or life insurance,None,None,rejected
+1068,6,4,1,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,7 years or more,Skilled,Radio/tv,Owns,Car or other,None,None,approved
+2788,15,2,2,No current account,Under 100 DM,Critical account or loans at other banks,4 to 7 years,Skilled,Furniture/equipment,Owns,Car or other,Co-applicant,At another bank,approved
+2647,6,2,1,Overdrawn,"500 to 1,000 DM",Current loans repaid on time so far,1 to 4 years,Skilled,Radio/tv,Rents,Real estate,None,None,approved
+4795,36,4,1,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,Under 1 year,"Highly qualified, self-employed or manager",Radio/tv,Owns,None known,None,None,approved
+1299,6,1,3,200 DM or more,Under 100 DM,Critical account or loans at other banks,1 to 4 years,"Unskilled, non-resident",New car,Owns,Real estate,None,None,approved
+763,12,4,1,No current account,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Skilled,Furniture/equipment,Owns,Real estate,None,None,approved
+1449,9,3,2,No current account,Under 100 DM,Current loans repaid on time so far,4 to 7 years,Skilled,Business,Owns,Car or other,None,None,approved
+4675,12,1,1,No current account,None known,Current loans repaid on time so far,Under 1 year,Skilled,Used car,Rents,Car or other,None,None,approved
+1275,15,4,1,Overdrawn,None known,Current loans repaid on time so far,1 to 4 years,Skilled,Domestic appliance,Rents,Car or other,None,None,rejected
+11816,45,2,2,Overdrawn,Under 100 DM,"No loans taken, or all repaid",7 years or more,Skilled,Business,Rents,Car or other,None,None,rejected
+2427,18,4,2,0 to 200 DM,None known,Paid late in the past,7 years or more,Skilled,Business,Owns,Savings or life insurance,None,None,approved
+2520,27,4,2,0 to 200 DM,"500 to 1,000 DM",Critical account or loans at other banks,1 to 4 years,Unskilled,Radio/tv,Owns,Savings or life insurance,None,None,rejected
+1154,11,4,3,No current account,100 to 500 DM,Critical account or loans at other banks,Unemployed,Unskilled,Radio/tv,Owns,Real estate,None,None,approved
+2606,21,4,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,Under 1 year,"Highly qualified, self-employed or manager",Radio/tv,Rents,Savings or life insurance,None,None,approved
+3149,24,4,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,Under 1 year,Skilled,Furniture/equipment,Lives for free,None known,None,At another bank,approved
+1287,10,4,1,No current account,None known,Current loans repaid on time so far,7 years or more,Unskilled,New car,Owns,Savings or life insurance,Co-applicant,None,approved
+2892,24,3,1,200 DM or more,Under 100 DM,Current loans repaid on time so far,7 years or more,Skilled,Furniture/equipment,Lives for free,None known,None,None,approved
+1255,12,4,2,No current account,Under 100 DM,Critical account or loans at other banks,7 years or more,Unskilled,New car,Owns,Real estate,None,None,approved
+754,12,4,2,0 to 200 DM,None known,Current loans repaid on time so far,7 years or more,Skilled,Retraining,Owns,Savings or life insurance,None,None,approved
+3062,24,4,1,No current account,"500 to 1,000 DM",Current loans repaid on time so far,7 years or more,Skilled,Furniture/equipment,Rents,None known,None,None,approved
+3234,24,4,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,Under 1 year,Unskilled,Furniture/equipment,Rents,Real estate,None,None,rejected
+3758,24,1,1,0 to 200 DM,"500 to 1,000 DM",Current loans repaid on time so far,Unemployed,"Unskilled, non-resident",Radio/tv,Rents,None known,None,None,approved
+1755,24,4,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,7 years or more,Unskilled,Other,Owns,Real estate,Guarantor,None,approved
+1544,4,2,3,No current account,Under 100 DM,Critical account or loans at other banks,4 to 7 years,Unskilled,Radio/tv,Owns,Real estate,None,None,approved
+15857,36,2,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,Unemployed,"Highly qualified, self-employed or manager",Other,Owns,Car or other,Co-applicant,None,approved
+3148,24,3,2,200 DM or more,None known,Critical account or loans at other banks,1 to 4 years,Skilled,Radio/tv,Owns,Car or other,None,None,approved
+6313,24,3,1,No current account,None known,Current loans repaid on time so far,7 years or more,"Highly qualified, self-employed or manager",Used car,Owns,Car or other,None,None,approved
+3959,15,3,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Skilled,New car,Owns,Savings or life insurance,None,None,rejected
+1505,18,4,1,No current account,Under 100 DM,Current loans repaid on time so far,1 to 4 years,"Highly qualified, self-employed or manager",Radio/tv,Lives for free,None known,None,None,approved
+4221,30,2,2,0 to 200 DM,Under 100 DM,"No loans taken, or all repaid",1 to 4 years,Skilled,Business,Owns,Car or other,None,None,approved
+1520,15,4,1,No current account,None known,Critical account or loans at other banks,7 years or more,Skilled,Furniture/equipment,Owns,Savings or life insurance,None,None,approved
+1913,18,3,1,0 to 200 DM,"1,000 DM or more",Current loans repaid on time so far,Under 1 year,Skilled,Business,Owns,Real estate,None,At another bank,approved
+4591,24,2,3,No current account,"1,000 DM or more",Current loans repaid on time so far,1 to 4 years,"Highly qualified, self-employed or manager",Business,Owns,Savings or life insurance,None,None,rejected
+894,10,4,1,No current account,None known,Current loans repaid on time so far,4 to 7 years,Skilled,Retraining,Owns,Savings or life insurance,None,None,approved
+700,6,4,2,No current account,None known,Critical account or loans at other banks,7 years or more,Skilled,Radio/tv,Lives for free,None known,None,None,approved
+1478,15,4,2,No current account,Under 100 DM,Paid late in the past,1 to 4 years,Skilled,Radio/tv,Owns,Real estate,None,At another bank,approved
+1647,21,4,2,Overdrawn,None known,All loans at this bank repaid,1 to 4 years,Unskilled,New car,Owns,Savings or life insurance,None,None,rejected
+1412,12,4,2,No current account,Under 100 DM,Critical account or loans at other banks,1 to 4 years,"Highly qualified, self-employed or manager",Business,Owns,Real estate,Guarantor,None,approved
+5324,15,1,1,No current account,"500 to 1,000 DM",Current loans repaid on time so far,7 years or more,Skilled,New car,Lives for free,None known,None,None,approved
+3643,15,1,2,Overdrawn,Under 100 DM,Paid late in the past,7 years or more,Unskilled,Furniture/equipment,Owns,Savings or life insurance,None,None,approved
+4843,12,3,2,Overdrawn,Under 100 DM,Critical account or loans at other banks,7 years or more,Skilled,New car,Rents,Savings or life insurance,Co-applicant,None,rejected
+1478,9,4,1,No current account,Under 100 DM,Current loans repaid on time so far,4 to 7 years,Skilled,Radio/tv,Owns,Car or other,None,None,rejected
+674,12,4,1,Overdrawn,100 to 500 DM,Current loans repaid on time so far,4 to 7 years,Skilled,Radio/tv,Owns,Savings or life insurance,None,None,rejected
+1278,24,4,1,No current account,Under 100 DM,Current loans repaid on time so far,7 years or more,"Highly qualified, self-employed or manager",Radio/tv,Owns,Real estate,None,None,approved
+14555,6,1,1,0 to 200 DM,None known,Current loans repaid on time so far,Unemployed,"Unskilled, non-resident",New car,Owns,Savings or life insurance,None,None,rejected
+3915,27,4,1,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Skilled,Business,Owns,Car or other,None,None,rejected
+1237,6,1,2,No current account,100 to 500 DM,Critical account or loans at other banks,1 to 4 years,Skilled,Radio/tv,Owns,Savings or life insurance,None,None,approved
+3976,21,2,1,0 to 200 DM,None known,Current loans repaid on time so far,4 to 7 years,Skilled,Furniture/equipment,Owns,Car or other,None,None,approved
+11328,24,2,2,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,1 to 4 years,"Highly qualified, self-employed or manager",Other,Owns,Car or other,Co-applicant,At another bank,rejected
+3959,36,4,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,Unemployed,"Highly qualified, self-employed or manager",Furniture/equipment,Owns,Savings or life insurance,None,None,approved
+1216,18,4,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,Under 1 year,Skilled,New car,Rents,Car or other,None,None,rejected
+1311,24,4,1,No current account,100 to 500 DM,Current loans repaid on time so far,4 to 7 years,Skilled,Radio/tv,Owns,Savings or life insurance,None,None,approved
+2058,24,4,2,No current account,Under 100 DM,Critical account or loans at other banks,1 to 4 years,Skilled,Repairs,Owns,Real estate,None,None,approved
+2096,12,2,1,No current account,Under 100 DM,Critical account or loans at other banks,4 to 7 years,Unskilled,Education,Owns,Real estate,None,None,approved
+5595,72,2,1,0 to 200 DM,100 to 500 DM,Current loans repaid on time so far,1 to 4 years,Skilled,Radio/tv,Owns,Car or other,None,None,rejected
+1577,11,4,1,0 to 200 DM,"1,000 DM or more",Current loans repaid on time so far,Under 1 year,Skilled,Furniture/equipment,Owns,Real estate,None,None,approved
+3872,18,2,1,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,Unemployed,Skilled,Repairs,Owns,Car or other,None,None,approved
+2775,18,2,2,No current account,Under 100 DM,Critical account or loans at other banks,4 to 7 years,Skilled,New car,Owns,Savings or life insurance,None,At another bank,rejected
+9271,36,2,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,4 to 7 years,Skilled,New car,Owns,Car or other,None,None,rejected
+1936,18,2,2,Overdrawn,None known,Current loans repaid on time so far,4 to 7 years,Unskilled,Radio/tv,Rents,Car or other,None,None,approved
+3939,11,1,2,Overdrawn,Under 100 DM,Critical account or loans at other banks,1 to 4 years,Unskilled,New car,Owns,Real estate,None,None,approved
+6078,12,2,1,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,4 to 7 years,Skilled,New car,Owns,Car or other,None,None,approved
+2511,15,1,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,Unemployed,Skilled,New car,Rents,Car or other,None,None,approved
+6288,60,4,1,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Skilled,Education,Lives for free,None known,None,None,rejected
+1237,8,3,1,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Skilled,Furniture/equipment,Owns,Real estate,None,None,rejected
+4351,24,1,1,0 to 200 DM,None known,Current loans repaid on time so far,1 to 4 years,Unskilled,Furniture/equipment,Owns,Savings or life insurance,None,None,approved
+3617,12,1,3,0 to 200 DM,Under 100 DM,Critical account or loans at other banks,7 years or more,Skilled,Furniture/equipment,Rents,Car or other,None,None,approved
+1316,15,2,2,No current account,"500 to 1,000 DM",Critical account or loans at other banks,1 to 4 years,Unskilled,Radio/tv,Owns,Savings or life insurance,None,None,approved
+2631,15,3,1,0 to 200 DM,100 to 500 DM,Current loans repaid on time so far,1 to 4 years,Unskilled,Repairs,Owns,Real estate,None,None,approved
+976,12,4,2,No current account,None known,Critical account or loans at other banks,7 years or more,Skilled,Radio/tv,Owns,Car or other,None,None,approved
+2124,18,4,2,Overdrawn,Under 100 DM,Critical account or loans at other banks,1 to 4 years,Skilled,Furniture/equipment,Rents,Real estate,None,None,rejected
+2442,27,4,4,Overdrawn,Under 100 DM,Critical account or loans at other banks,7 years or more,"Highly qualified, self-employed or manager",Business,Owns,Car or other,None,At stores,approved
+5179,36,4,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,4 to 7 years,Skilled,Furniture/equipment,Owns,Savings or life insurance,None,None,rejected
+1200,12,4,1,Overdrawn,None known,Current loans repaid on time so far,1 to 4 years,Skilled,Education,Rents,Savings or life insurance,None,At another bank,approved
+4272,20,1,2,Overdrawn,Under 100 DM,Critical account or loans at other banks,7 years or more,Skilled,Furniture/equipment,Owns,Savings or life insurance,None,None,approved
+3416,27,3,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,1 to 4 years,"Highly qualified, self-employed or manager",Radio/tv,Owns,Car or other,None,None,approved
+10222,48,4,1,No current account,None known,Current loans repaid on time so far,4 to 7 years,Skilled,Radio/tv,Owns,Car or other,None,At stores,approved
+683,6,2,1,200 DM or more,Under 100 DM,Paid late in the past,Under 1 year,Skilled,Radio/tv,Owns,Savings or life insurance,None,At another bank,approved
+9436,54,2,1,No current account,None known,"No loans taken, or all repaid",1 to 4 years,Unskilled,Used car,Owns,Savings or life insurance,None,None,approved
+2924,24,3,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Skilled,Used car,Owns,None known,Guarantor,At another bank,approved
+3652,21,2,2,0 to 200 DM,Under 100 DM,Critical account or loans at other banks,4 to 7 years,Skilled,Business,Owns,Savings or life insurance,None,None,approved
+1262,12,3,1,No current account,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Skilled,Radio/tv,Owns,Car or other,None,None,approved
+7685,48,2,1,Overdrawn,Under 100 DM,All loans at this bank repaid,4 to 7 years,Skilled,Business,Rents,Car or other,Guarantor,None,rejected
+4796,42,4,1,200 DM or more,Under 100 DM,Critical account or loans at other banks,7 years or more,Skilled,Used car,Lives for free,None known,None,None,approved
+18424,48,1,1,0 to 200 DM,Under 100 DM,"No loans taken, or all repaid",1 to 4 years,"Highly qualified, self-employed or manager",Other,Owns,Savings or life insurance,None,At another bank,rejected
+1262,12,2,1,Overdrawn,None known,Current loans repaid on time so far,7 years or more,Unskilled,Furniture/equipment,Owns,Savings or life insurance,None,None,approved
+625,12,4,1,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,Under 1 year,Unskilled,Radio/tv,Owns,Real estate,Guarantor,At another bank,approved
+937,24,4,2,No current account,Under 100 DM,Current loans repaid on time so far,Under 1 year,Unskilled,Retraining,Owns,Car or other,None,None,approved
+2299,36,4,1,No current account,"500 to 1,000 DM",Current loans repaid on time so far,7 years or more,Skilled,Radio/tv,Owns,Car or other,None,None,approved
+1289,12,4,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Unskilled,Furniture/equipment,Owns,Savings or life insurance,Guarantor,None,approved
+745,9,3,1,200 DM or more,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Unskilled,Radio/tv,Owns,Real estate,None,None,rejected
+1845,15,4,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,Under 1 year,Skilled,Furniture/equipment,Rents,Savings or life insurance,Guarantor,None,approved
+1670,9,4,1,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,Under 1 year,Skilled,Radio/tv,Owns,Car or other,None,None,rejected
+6579,24,4,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,Unemployed,"Highly qualified, self-employed or manager",Used car,Lives for free,None known,None,None,approved
+8086,36,2,4,0 to 200 DM,100 to 500 DM,Paid late in the past,7 years or more,"Highly qualified, self-employed or manager",New car,Owns,Car or other,None,None,rejected
+2745,21,3,2,0 to 200 DM,"1,000 DM or more",Critical account or loans at other banks,4 to 7 years,Skilled,Furniture/equipment,Owns,Car or other,None,None,approved
+2899,18,4,1,0 to 200 DM,None known,Paid late in the past,7 years or more,Skilled,New car,Owns,Car or other,None,None,approved
+10974,36,4,2,No current account,Under 100 DM,Current loans repaid on time so far,Unemployed,"Highly qualified, self-employed or manager",Furniture/equipment,Owns,Car or other,None,None,rejected
+1898,6,1,2,No current account,None known,Critical account or loans at other banks,1 to 4 years,Unskilled,Radio/tv,Owns,Real estate,None,None,approved
+1845,45,4,1,Overdrawn,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Skilled,Radio/tv,Lives for free,None known,None,None,rejected
+10144,60,2,1,No current account,100 to 500 DM,Current loans repaid on time so far,4 to 7 years,Skilled,Radio/tv,Owns,Real estate,None,None,approved
+3448,5,1,1,No current account,Under 100 DM,Current loans repaid on time so far,4 to 7 years,Unskilled,Business,Owns,Real estate,None,None,approved
+1113,18,4,1,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Unskilled,Radio/tv,Owns,Real estate,Guarantor,None,approved
+3160,21,4,1,No current account,None known,Current loans repaid on time so far,7 years or more,Skilled,Radio/tv,Owns,Savings or life insurance,None,None,approved
+1322,11,4,2,0 to 200 DM,"1,000 DM or more",Critical account or loans at other banks,1 to 4 years,Skilled,New car,Owns,Car or other,None,None,approved
+2118,9,2,1,0 to 200 DM,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Unskilled,Radio/tv,Owns,Real estate,None,None,approved
+3031,45,4,1,0 to 200 DM,100 to 500 DM,Current loans repaid on time so far,1 to 4 years,Skilled,Radio/tv,Rents,Savings or life insurance,Guarantor,None,rejected
+2859,12,4,1,No current account,None known,Current loans repaid on time so far,Unemployed,"Highly qualified, self-employed or manager",New car,Owns,None known,None,None,approved
+3422,18,4,3,No current account,Under 100 DM,Current loans repaid on time so far,7 years or more,Skilled,Furniture/equipment,Owns,Savings or life insurance,None,At another bank,approved
+1768,12,3,1,No current account,Under 100 DM,Current loans repaid on time so far,1 to 4 years,Unskilled,Furniture/equipment,Rents,Real estate,None,None,approved
+11760,39,2,1,0 to 200 DM,100 to 500 DM,Paid late in the past,4 to 7 years,Skilled,Education,Rents,None known,None,None,approved

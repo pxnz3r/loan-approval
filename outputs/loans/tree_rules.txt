@@ -1,0 +1,64 @@
+|--- Current account balance is not No current account
+|   |--- Loan length (months) <= 11.50
+|   |   |--- Most valuable property is not Real estate
+|   |   |   |--- Loan amount (DM) <= 1257.50
+|   |   |   |   |--- class: approved
+|   |   |   |--- Loan amount (DM) >  1257.50
+|   |   |   |   |--- class: approved
+|   |   |--- Most valuable property is Real estate
+|   |   |   |--- class: approved
+|   |--- Loan length (months) >  11.50
+|   |   |--- Savings is not Under 100 DM
+|   |   |   |--- Loan amount (DM) <= 1381.50
+|   |   |   |   |--- class: rejected
+|   |   |   |--- Loan amount (DM) >  1381.50
+|   |   |   |   |--- Most valuable property is not None known
+|   |   |   |   |   |--- Credit history is not Current loans repaid on time so far
+|   |   |   |   |   |   |--- class: approved
+|   |   |   |   |   |--- Credit history is Current loans repaid on time so far
+|   |   |   |   |   |   |--- class: approved
+|   |   |   |   |--- Most valuable property is None known
+|   |   |   |   |   |--- class: approved
+|   |   |--- Savings is Under 100 DM
+|   |   |   |--- Loan length (months) <= 15.50
+|   |   |   |   |--- Years in current job is not 1 to 4 years
+|   |   |   |   |   |--- Loan amount (DM) <= 1390.50
+|   |   |   |   |   |   |--- class: rejected
+|   |   |   |   |   |--- Loan amount (DM) >  1390.50
+|   |   |   |   |   |   |--- class: approved
+|   |   |   |   |--- Years in current job is 1 to 4 years
+|   |   |   |   |   |--- class: approved
+|   |   |   |--- Loan length (months) >  15.50
+|   |   |   |   |--- Repayment as share of income (1 to 4) <= 2.50
+|   |   |   |   |   |--- Loan amount (DM) <= 3217.00
+|   |   |   |   |   |   |--- class: rejected
+|   |   |   |   |   |--- Loan amount (DM) >  3217.00
+|   |   |   |   |   |   |--- class: approved
+|   |   |   |   |--- Repayment as share of income (1 to 4) >  2.50
+|   |   |   |   |   |--- Credit history is not Critical account or loans at other banks
+|   |   |   |   |   |   |--- class: rejected
+|   |   |   |   |   |--- Credit history is Critical account or loans at other banks
+|   |   |   |   |   |   |--- class: approved
+|--- Current account balance is No current account
+|   |--- Other repayment plans is not At another bank
+|   |   |--- Credit history is not Paid late in the past
+|   |   |   |--- Loan amount (DM) <= 4152.00
+|   |   |   |   |--- Credit history is not Current loans repaid on time so far
+|   |   |   |   |   |--- Years in current job is not 1 to 4 years
+|   |   |   |   |   |   |--- class: approved
+|   |   |   |   |   |--- Years in current job is 1 to 4 years
+|   |   |   |   |   |   |--- class: approved
+|   |   |   |   |--- Credit history is Current loans repaid on time so far
+|   |   |   |   |   |--- Loan length (months) <= 16.50
+|   |   |   |   |   |   |--- class: approved
+|   |   |   |   |   |--- Loan length (months) >  16.50
+|   |   |   |   |   |   |--- class: approved
+|   |   |   |--- Loan amount (DM) >  4152.00
+|   |   |   |   |--- Loan length (months) <= 25.50
+|   |   |   |   |   |--- class: approved
+|   |   |   |   |--- Loan length (months) >  25.50
+|   |   |   |   |   |--- class: approved
+|   |   |--- Credit history is Paid late in the past
+|   |   |   |--- class: approved
+|   |--- Other repayment plans is At another bank
+|   |   |--- class: approved

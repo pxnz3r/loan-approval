@@ -1,0 +1,30 @@
+[project]
+name = "loan-approval"
+version = "1.0.0"
+description = "Predicts whether a loan application is approved with a Decision Tree and shows the rules it learned, with an interactive Streamlit demo."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.14"
+dependencies = [
+    "pandas>=3.1.1",
+    "numpy>=2.5.4",
+    "scikit-learn>=1.9.1",
+    "matplotlib>=3.11.2",
+    "seaborn>=0.13.2",
+    "joblib>=1.6.0",
+    "streamlit>=1.67.0",
+]
+
+[dependency-groups]
+dev = ["ruff>=0.17.5"]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["SIM108", "SIM110", "E501", "B905"]
